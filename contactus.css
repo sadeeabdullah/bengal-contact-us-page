@@ -21,8 +21,12 @@
     border-radius: 12px;
     margin: 0 10px;
     width: 30%;
+    
 }
 
+.contact-us-box div:hover{
+    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+}
 
 .custom-icon{
     color: #035ded;
