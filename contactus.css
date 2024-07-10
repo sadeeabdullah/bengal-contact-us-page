@@ -10,6 +10,7 @@
     justify-content: space-between;
     gap: 20px;
     padding: 10px;
+    margin-bottom: 100px;
 }
 .contact-us-box div{
     display: flex;
@@ -36,13 +37,63 @@
 
 }
 .contact-us-box div h3 {
-    margin: 0 10px 0 0;
+    margin: 0 2px 0 0;
     font-weight: 600;
-    color: rgb(80, 69, 69) !important  ;
-    margin-bottom: 0.375rem;
+    color: #0d1536 !important  ;
 }
 
 .contact-us-box div p {
-    margin: 0; 
+    margin: 0 0; 
     color: #6c757d !important;
+}
+
+.title-on-contact-page{
+    text-align: center;
+}
+.title-on-contact-page h2{
+    font-size: 1.75rem;
+    margin-bottom: 0.5rem;
+    line-height: 1.2;
+}
+.title-on-contact-page p{
+    margin-top: 0;
+    margin-bottom: 1rem;
+    font-size: 1.125rem;
+    font-weight: 400;
+}
+
+
+/* css for description container */
+
+.description-container {
+    display: flex;
+}
+
+.description-in-support {
+    flex: 65%; 
+}
+
+.get-in-touch-section{
+    flex: 35%; 
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+}
+.get-in-touch-section h3 {
+    font-weight: 600;
+    color: #0d1536; /* Adjust text color */
+    margin-bottom: 0.5rem; /* Adjust margin bottom */
+}
+
+.get-in-touch-section p {
+    margin: 0.5rem 0; 
+    color: #6c757d; 
+    font-weight: 400; 
+    line-height: 1.5;
+}
+
+.divider{
+    border-bottom: 0.5px solid rgb(190, 184, 184);
+    width: 100%;
+    padding-bottom: 30px;
 }
