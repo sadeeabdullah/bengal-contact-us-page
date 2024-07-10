@@ -1,0 +1,44 @@
+.container-for-contact-us-page{
+    margin: 0 auto;
+    width: 1140px;
+    padding: 60px 0px;
+    font-family: 'Poppins', sans-serif;
+}
+
+.contact-us-box{
+    display: flex;
+    justify-content: space-between;
+    gap: 20px;
+    padding: 10px;
+}
+.contact-us-box div{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border:  0.5px solid rgb(190, 184, 184);
+    padding: 40px 0px;
+    border-radius: 12px;
+    margin: 0 10px;
+    width: 30%;
+}
+
+
+.custom-icon{
+    color: #035ded;
+    font-size: x-large;
+    margin-right: 10px;
+    padding-bottom: 1rem ;
+
+}
+.contact-us-box div h3 {
+    margin: 0 10px 0 0;
+    font-weight: 600;
+    color: rgb(80, 69, 69) !important  ;
+    margin-bottom: 0.375rem;
+}
+
+.contact-us-box div p {
+    margin: 0; 
+    color: #6c757d !important;
+}
